@@ -1,0 +1,15 @@
+instructions.txt
+The Game that Builds Itself
+A game from Chris+Andrew Studios
+
+Instructions:
+1. Run the game, play through until the end.
+2. You will get to a point where the game is not yet implemented.
+3. Edit the code until that level is complete.
+4. The game will ask you to suggest a change for the next level. Do so.
+5. Zip up the game and send it back.
+
+Rules:
+1. The game must be 100% backwards compatible. All levels should build, render, and play exactly as they did when they were initially made (up to randomization). To enforce this, successful runs through the game will be saved and checked against new builds. 
+2. Each level should only make one change. Ideally, each change should be as small as possible while still meaningfully changing the gameplay experience. That means at most there should be one new mechanic and one new type of world feature. 
+3. Each level should demonstrate the new mechanic that it introduces in a self contained manner. 

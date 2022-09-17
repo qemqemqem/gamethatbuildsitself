@@ -1,0 +1,14 @@
+1	basic level structure (with spikes to avoid, and stairs down)
+2	new monster (goblin)
+_	attack button
+_	walls with a door
+_	fog of war
+_	hit points
+_	new monster
+_	improved game art
+_	new key
+_	new attack types
+_	stats
+_	new item
+_	new door type
+_	dungeon feature 
