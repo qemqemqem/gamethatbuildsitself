@@ -39,7 +39,10 @@ public class InputManager : MonoBehaviour
             }
             world.pcPos = pos;
 
-            playerCharacter.transform.position = new Vector3(world.pcPos.x, world.pcPos.y, 0);
+            //world.simpleMap[(int)world.pcPos.x, (int)world.pcPos.y] = "adventurer";
+//            MapSystem.RenderWorldMap(world);
+            world.SetPosition(playerCharacter.transform, world.pcPos);
+            //playerCharacter.transform.position = new Vector3(world.pcPos.x, world.pcPos.y, 0);
         }
     }
 }

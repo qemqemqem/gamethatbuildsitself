@@ -1,3 +1,4 @@
 0	author	instructions	details
 1	andrew	basic gameplay	with dangerous spikes
 2	chris	new monster	goblin
+3	andrew	attack button	Splat the goblins

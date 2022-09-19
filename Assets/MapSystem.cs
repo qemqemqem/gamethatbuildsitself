@@ -37,6 +37,7 @@ public class MapSystem : MonoBehaviour
                 if (world.simpleMap[i, j] == "up") tile = map.stairsUp;
                 if (world.simpleMap[i, j] == "down") tile = map.stairsDown;
                 if (world.simpleMap[i, j] == "spikes") tile = map.spikes;
+                if (world.simpleMap[i, j] == "adventurer") tile = map.character;
                 if (tile != null) tilemap.SetTile(new Vector3Int(i, j, 0), tile);
             }
         }

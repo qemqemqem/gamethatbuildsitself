@@ -127,6 +127,7 @@ public class SplashScreens : MonoBehaviour
 
         if (currentLevel >= 1) Level1.WorldCreation(world);
         if (currentLevel >= 2) Level2.WorldCreation(world);
+        if (currentLevel >= 3) Level3.WorldCreation(world);
 
         // TODO Code generation for future levels
 
